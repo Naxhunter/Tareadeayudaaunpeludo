@@ -1,4 +1,94 @@
-div.div-perf{
+*{  
+    margin: 0;
+    /*background-color: rgb(17, 16, 16);*/
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(17, 16, 16);
+}
+.contenedor{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    height: 100%;
+}
+.cuerpo{
+    margin-top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(17, 16, 16);
+    padding-right: 50px;
+    
+
+}
+
+
+.navegacion{
+    background-color: rgb(17, 16, 16);
+    height: 700px;
+    
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.navegacion li a{
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 35px;
+}
+.navegacion li{
+    display: block;
+    padding: 10px;
+    
+}
+.navegacion li:hover{
+    filter: brightness(0.5);
+    transition: 0.5s;
+}
+.color4{
+    background-color: red;
+    text-align: center;
+    height: 160.05px;
+    padding-top: 15px;
+    
+}
+.color1{
+    background-color: rgb(57, 108, 175);
+    text-align: center;
+    height: 160.05px;
+    padding-top: 15px;
+    
+}
+.color2{
+    background-color: rgb(202, 202, 56);
+    text-align: center;
+    height: 160.05px;
+    padding-top: 15px;
+    
+}
+.color3{
+    background-color: orange;
+    text-align: center;
+    height: 160.05px;
+    padding-top: 15px;
+    
+}
+.footer{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    margin-left: 135px;
+    
+}
+.titulo{
+    
+}
+p{
+    text-align: center;
+}
+/*div.div-perf{
     float: left;
     margin-top: 100px;
     margin-left: 100px;
@@ -40,4 +130,4 @@ body{
 td.td-grand{
     width: 100px;
     text-align: center;
-}
+}*/
